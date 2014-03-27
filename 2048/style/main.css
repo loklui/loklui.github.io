@@ -434,11 +434,11 @@ hr {
         
     @media screen and (max-width: 520px) {
       .tile.tile-4 .tile-inner {
-        font-size: 16px; } }
+        font-size: 14px; } }
 
     @media screen and (max-width: 520px) {
       .tile.tile-8 .tile-inner {
-        font-size: 16px; } }
+        font-size: 14px; } }
 
     @media screen and (max-width: 520px) {
       .tile.tile-16 .tile-inner {
