@@ -416,14 +416,6 @@ hr {
 	font-size: 25px;
     background: #fff1c4;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
-  .tile.tile-65536 .tile-inner {
-    color: #f9f6f2;
-    background: url(65536.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
-  .tile.tile-131072 .tile-inner {
-    color: #f9f6f2;
-    background: url(131072.jpg);
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
