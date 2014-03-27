@@ -151,25 +151,25 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var mytxt=new Array(14);
-  mytxt[0]=" ";			//lung wah
-  mytxt[1]=" ";			//suen chi sun
-  mytxt[2]=" ";				//lee shau kee
-  mytxt[3]="Shine n Shine n Never Fall";			//Starr
-  mytxt[4]=" ";					//wai lun
-  mytxt[5]=" ";	//RC
-  mytxt[6]=" ";				//Hysan
-  mytxt[7]=" ";			//Sky
-  mytxt[8]=" ";	//Swire
-  mytxt[9]="邪邪邪邪邪邪邪...";			//U Hall
-  mytxt[10]="我地會煮糖水, 又會煲粥...";	//Ho Tung
-  mytxt[11]="";	//Ricci
-  mytxt[12]=" ";	//Morrison
-  mytxt[13]=" ";		//St John
+  mytxt[0]="拎定五舊水出黎食碟頭飯啦";			//lung wah
+  mytxt[1]="EV Hazel好靚女";					//suen chi sun
+  mytxt[2]="...";							//lee shau kee
+  mytxt[3]="Shine n Shine n Never Fall";	//Starr
+  mytxt[4]="偉倫做到!";						//wai lun
+  mytxt[5]="RC做得到!";						//RC
+  mytxt[6]="加油Hysan!";						//Hysan
+  mytxt[7]="LELELEE We Are Simon K.Y.LEE";	//Sky
+  mytxt[8]="Swire Hall非常勁抽";				//Swire
+  mytxt[9]="邪邪邪邪邪邪邪...";				//U Hall
+  mytxt[10]="我地會煮糖水, 又會煲粥...";		//Ho Tung
+  mytxt[11]="玩完聽朝早啲起身練波啦";			//Ricci
+  mytxt[12]="能成為密友大概總帶著愛...";		//Morrison
+  mytxt[13]="名校有錢靚仔靚女運動叻";			//St John
 
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "中华人民共和国万岁！" : mytxt[text3(maxscore)-3];
+  var message = won ? "廣東省香港市第一人民大學歡迎你！" : mytxt[text3(maxscore)-3];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
