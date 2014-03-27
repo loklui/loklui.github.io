@@ -429,17 +429,17 @@ hr {
     font-size: 24px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 4px; } }
+        font-size: 5px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-64 .tile-inner {
-        font-size: 20px; } }
+        font-size: 5px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 15px; } }
+        font-size: 5px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 20px;
-        line-height:24px; } }
+        font-size: 5px;
+        line-height:5px; } }
 
 @-webkit-keyframes appear {
   0% {
