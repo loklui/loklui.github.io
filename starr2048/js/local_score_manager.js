@@ -26,11 +26,11 @@ function LocalScoreManager() {
 }
 
 LocalScoreManager.prototype.localStorageSupported = function () {
-  var testKey = "test1";
+  var testKey = "test";
   var storage = window.localStorage;
 
   try {
-    storage.setItem(testKey, "1");
+    storage.setItem(testKey, "2");
     storage.removeItem(testKey);
     return true;
   } catch (error) {
