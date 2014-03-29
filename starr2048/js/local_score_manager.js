@@ -26,7 +26,7 @@ function LocalScoreManager() {
 }
 
 LocalScoreManager.prototype.localStorageSupported = function () {
-  var testKey = "test";
+  var testKey = "test1";
   var storage = window.localStorage;
 
   try {
