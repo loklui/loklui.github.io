@@ -186,8 +186,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "loklui");
-  tweet.setAttribute("data-url", "http://loklui.github.io/2048");
-  tweet.setAttribute("data-counturl", "http://loklui.github.io/2048");
+  tweet.setAttribute("data-url", "http://loklui.github.io/starr2048");
+  tweet.setAttribute("data-counturl", "http://loklui.github.io/starr2048");
   tweet.textContent = "Tweet";
 
   var text = "I scored " + this.score + " points at 2048 Starr Hall edition, a game where you " +
