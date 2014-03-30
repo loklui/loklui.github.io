@@ -364,7 +364,7 @@ hr {
     
         @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
-        background-size:auto; } }
+        background-size:75%; } }
         
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
