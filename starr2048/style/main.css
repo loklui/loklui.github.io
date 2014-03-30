@@ -411,7 +411,7 @@ hr {
     font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 20px; } }
+        font-size: 18px; } }
         
     @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
@@ -439,11 +439,11 @@ hr {
         
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 16px; } }
+        font-size: 14px; } }
         
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 16px; } }
+        font-size: 14px; } }
         
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
