@@ -19,7 +19,7 @@ window.fakeStorage = {
 };
 
 function LocalScoreManager() {
-  this.key     = "bestScore";
+  this.key     = "BestScore";
 
   var supported = this.localStorageSupported();
   this.storage = supported ? window.localStorage : window.fakeStorage;
@@ -30,7 +30,7 @@ LocalScoreManager.prototype.localStorageSupported = function () {
   var storage = window.localStorage;
 
   try {
-    storage.setItem(testKey, "2");
+    storage.setItem(testKey, "1");
     storage.removeItem(testKey);
     return true;
   } catch (error) {
