@@ -411,20 +411,14 @@ hr {
     font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 18px; } }
-
-    @media screen and (max-width: 520px) {
-  	  .tile .tile-inner {
-        font-size: 18px; } }
-        
+        font-size: 20px; } }      
+          
     @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
-        font-size: 20px;
         line-height:23px; } }
         
     @media screen and (max-width: 520px) {
       .tile.tile-4 .tile-inner {
-        font-size: 20px;
         line-height:23px; } }
 
     @media screen and (max-width: 520px) {
@@ -800,7 +794,7 @@ hr {
     margin-top: 20px; }
 
   .tile .tile-inner {
-    font-size: 20px; }
+    font-size: 18px; }
 
   .game-message p {
     font-size: 30px !important;
