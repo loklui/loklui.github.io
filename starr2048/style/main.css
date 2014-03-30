@@ -449,6 +449,10 @@ hr {
       .tile.tile-2048 .tile-inner {
         line-height:25px; } }
 
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        background-size:auto; } }
+
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
