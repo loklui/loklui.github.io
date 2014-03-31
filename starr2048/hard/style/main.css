@@ -702,7 +702,7 @@ hr {
     margin-top: 20px; }
 
   .tile .tile-inner {
-    line-height: 25px;
+    line-height: 0px;
     font-size: 22px; }
 
   .game-message p {
