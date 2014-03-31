@@ -375,7 +375,7 @@ hr {
     font-size: 20px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 20px; }    
+        font-size: 20px; }
       .tile.tile-2 .tile-inner {
         line-height:27px; }
       .tile.tile-4 .tile-inner {
@@ -702,6 +702,7 @@ hr {
     margin-top: 20px; }
 
   .tile .tile-inner {
+    line-height: 25px;
     font-size: 22px; }
 
   .game-message p {

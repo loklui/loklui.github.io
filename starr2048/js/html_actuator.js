@@ -157,7 +157,7 @@ HTMLActuator.prototype.message = function (won) {
   mytxt[7]="Game Over";			//1617
   mytxt[8]="Game Over";			//1819
   mytxt[9]="Game Over";			//2021
-  mytxt[10]="Game Over";		//2223
+  mytxt[10]="我的字典裡沒有~~放棄～";		//2223
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
