@@ -342,7 +342,7 @@ hr {
     background: url(6.jpg);
 	background-size: 100%;
     color: #f9f6f2; }
-  .tile.tile-128 .tile-inner 
+  .tile.tile-128 .tile-inner {
     background: url(7.jpg);
 	background-size: 100%;
     color: #f9f6f2;
