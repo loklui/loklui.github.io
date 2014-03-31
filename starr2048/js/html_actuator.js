@@ -161,7 +161,7 @@ HTMLActuator.prototype.message = function (won) {
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Shine and Shine and Never Fall" : mytxt[text3(maxscore)-1];
+  var message = won ? "Shine and Shine and Never Fail" : mytxt[text3(maxscore)-1];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
