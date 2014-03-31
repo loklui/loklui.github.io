@@ -65,7 +65,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   text[9] = "花砲";			//1819//
   text[10] = "怡寧閣";		//2021//
   text[11] = "摘星<br>重天";	//2223//
-  text[12] = " "			//Starr//
+  text[12] = " ";			//Starr//
   
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }

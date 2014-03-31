@@ -52,21 +52,18 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 HTMLActuator.prototype.addTile = function (tile) {
-  var text=new Array(13);
+  var text=new Array(10);
   text[0] = " ";
-  text[1] = "仁義<br>三悅";	//23//
-  text[2] = "四合<br>五角";	//45//
-  text[3] = "陸君<br>柒刻";	//67//
-  text[4] = "九龍<br>怡紅";	//89//
-  text[5] = "賢龍<br>溢悅";	//1011//
-  text[6] = "太保<br>德慎";	//1213//
-  text[7] = "峰晴";			//1415//
-  text[8] = "壹碌柒";			//1617//
-  text[9] = "花砲";			//1819//
-  text[10] = "怡寧閣";		//2021//
-  text[11] = "摘星<br>重天";	//2223//
-  text[12] = " ";			//Starr//
-
+  text[1] = " ";
+  text[2] = " ";
+  text[3] = " ";
+  text[4] = " ";
+  text[5] = " ";
+  text[6] = " ";
+  text[7] = " ";
+  text[8] = " ";
+  text[9] = " ";
+  
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
@@ -146,22 +143,11 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var mytxt=new Array(11);
-  mytxt[0]="Game Over";			//23
-  mytxt[1]="Game Over";			//45
-  mytxt[2]="Game Over";			//67
-  mytxt[3]="Game Over";			//89
-  mytxt[4]="Game Over";			//1011
-  mytxt[5]="Game Over";			//1213
-  mytxt[6]="Game Over";			//1415
-  mytxt[7]="Game Over";			//1617
-  mytxt[8]="Game Over";			//1819
-  mytxt[9]="Game Over";			//2021
-  mytxt[10]="我的字典裡沒有~~放棄～";		//2223
+  var mytxt="Game Over";
 
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Shine and Shine and Never Fail" : mytxt[text3(maxscore)-1];
+  var message = won ? "快啲Follow我IG loveshamsham啦!" : mytxt;
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -186,12 +172,12 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "loklui");
-  tweet.setAttribute("data-url", "http://loklui.github.io/starr2048");
-  tweet.setAttribute("data-counturl", "http://loklui.github.io/starr2048");
+  tweet.setAttribute("data-url", "http://loklui.github.io/loveshamsham2048");
+  tweet.setAttribute("data-counturl", "http://loklui.github.io/loveshamsham2048");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at 2048 Starr Hall edition, a game where you " +
-             "join numbers to score high! #Starr2048";
+  var text = "I scored " + this.score + " points at loveshamsham 2048, a game where you " +
+             "join numbers to score high! #loveshamsham2048";
   tweet.setAttribute("data-text", text);
 
   return tweet;
